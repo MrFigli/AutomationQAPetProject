@@ -1,5 +1,5 @@
-from modules.api.clients.booking.get_booking import GetBooking
-from modules.api.clients.booking.get_booking_ids import GetBookingIds
+from modules.api.services.get_booking import GetBooking
+from modules.api.services.get_booking_ids import GetBookingIds
 
 
 class BaseTestApi:

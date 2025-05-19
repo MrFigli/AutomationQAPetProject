@@ -1,6 +1,6 @@
 import requests
 from config import data
-from modules.api.clients.booking.endpoints import Endpoints
+from modules.api.services.endpoints import Endpoints
 
 
 def getIDsFromResponse(resp):
