@@ -3,6 +3,7 @@ OK = 200
 BAD_REQUEST = 400
 UNAUTHORIZED = 401
 NOT_FOUND = 404
+INTERNAL_SERVER_ERROR = 500
 
 # Authentication
 USERNAME = 'admin'
@@ -25,4 +26,4 @@ invalid_format_date = '27.3.1943.'
 # test_GetBooking
 valid_id = '1'
 valid_id_2 = '8'
-invalid_id = '56'
+invalid_id = '123456'
